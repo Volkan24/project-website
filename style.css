@@ -1,0 +1,102 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: black ;  
+    
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+body{
+    background-image: url("/plaatje/plaatje 2 niffo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: white;
+    text-align: center;
+}
+
+
+/* specifieke stijlen */
+
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+img.badplaats{
+    margin: 0px 20px 20px 0px;
+    float: left 
+}
+img.natuurplaatsen{
+    margin: 85px 30px 30px 30px;
+    float:right
+}
+img.istanbul{
+    margin: 0px 20px 20px 0px;
+    float: left 
+}
+img.doner{
+    margin: 40px 30px 30px 30px;
+    float:right
+}
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color:red;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:white;
+}
+
+nav li a.active {
+    background-color: black ;
+}
+
+p{
+    color: white;
+}
+
